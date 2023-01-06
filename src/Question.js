@@ -2,7 +2,7 @@ import './Question.css';
 import React from "react";
 
 export function Question(props) {
-    const [selected, setSelected] = React.useState(0);
+    const [selected, setSelected] = React.useState(-1);
 
     const images = props.images;
     const question = props.question;

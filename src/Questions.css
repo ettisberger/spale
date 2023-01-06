@@ -1,9 +1,23 @@
 .questions {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    align-items: center;
+}
+
+.questions h2 {
+    color: #2196f3;
+}
+
+.result {
+    margin: 2rem 0;
+}
+
+.result-text {
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 button {
