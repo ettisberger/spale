@@ -27,3 +27,9 @@ button {
     color: white;
     cursor: pointer;
 }
+
+button:disabled {
+    background-color: grey;
+    cursor: default;
+}
+

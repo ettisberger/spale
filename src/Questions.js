@@ -28,7 +28,7 @@ export function Questions() {
                     <div className="result-text">{result.text}</div>
                 </div>
                 }
-                <button onClick={showResult}>
+                <button onClick={showResult} disabled={result}>
                     Resultat
                 </button>
             </div>
